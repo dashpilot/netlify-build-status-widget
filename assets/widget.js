@@ -6,7 +6,8 @@ function poll(url) {
     .then((response) => {
       return response.json();
     })
-    .then((status) => {
+    .then((result) => {
+      var status = result.status;
       if (status == 'ready') {
         statusbar.innerHTML = 'Ready!';
         dot.classList.remove('red', 'yellow');
