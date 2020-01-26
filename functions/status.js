@@ -27,11 +27,4 @@ exports.handler = async (event, context) => {
     body: deploys[0].state
   };
 
-
-} catch (error) {
-  return {
-    statusCode: 401,
-    body: 'Not Authorized.',
-  };
-}
 };
