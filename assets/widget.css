@@ -1,0 +1,80 @@
+/* General Widget Code */
+
+.ww-widget{font-family: 'Helvetica', sans-serif;position:fixed;bottom:0;right:0;margin:25px;width:300px;min-height:290px;border-radius:6px;overflow:hidden;text-align:center;box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);box-sizing:border-box;}
+.ww-header{height:150px;background-image:url(netlify.jpg);background-size:cover;background-position: center center;}
+.ww-content{padding: 20px;}
+.ww-footer{padding: 15px;border-top:1px solid #DDD;position: absolute;bottom:0;left:0;width:100%;box-sizing:border-box;}
+.ww-close{float: right; font-size: 25px; padding:15px; padding-top: 5px;color:white;cursor:pointer;}
+.ww-widget p{font-family: 'Cardo', serif;}
+.ww-widget h1, .ww-widget h2, .ww-widget h3, .ww-widget h4, .ww-button{font-family: 'Helvetica', sans-serif; letter-spacing: 0.03em; text-transform: uppercase;}
+.ww-button{display:block;text-align:center;padding:10px 15px;background-color: #20bf6b;border-radius: 4px;color:white;text-decoration: none;}
+.ww-widget{opacity: 0;animation-name: bounceIn;animation-duration: 250ms;animation-timing-function: linear;animation-fill-mode: forwards;}
+.closing{animation-name: bounceOut;animation-duration: 250ms;animation-timing-function: linear;animation-fill-mode: forwards;}
+@keyframes bounceIn{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
+}
+@keyframes bounceOut{
+  0%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
+  20%{
+    transform: scale(1.1) translate3d(0,0,0);
+  }
+  100%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+}
+@media only screen and (max-width : 750px) {.ww-widget{width:85%;bottom:0;left:0;}}
+
+/* --- Netlify Status --- */
+
+a.dot {
+  display: inline-block;
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  background-color: #D0D0D0;
+  margin-left: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+a.red {
+  background-color: #F26A63;
+  -webkit-animation: grow 1s alternate infinite;
+  -moz-animation: grow 1s alternate infinite;
+}
+
+a.yellow {
+  background-color: #F4C048;
+  -webkit-animation: grow 1s alternate infinite;
+  -moz-animation: grow 1s alternate infinite;
+}
+
+a.green {
+  background-color: #65CC57;
+}
+
+#netlify-status {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+@-webkit-keyframes grow {
+  from {
+    -webkit-transform: scale(1);
+  }
+
+  to {
+    -webkit-transform: scale(1.3);
+  }
+}
