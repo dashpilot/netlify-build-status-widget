@@ -4,7 +4,7 @@ Widget that shows the current status of your Netlify builds
 
 # Preview
 
-![Preview](https://raw.githubusercontent.com/dashpilot/netlify-build-status-widget/master/assets/preview.jpg =320x);
+![Preview](https://raw.githubusercontent.com/dashpilot/netlify-build-status-widget/master/assets/preview.jpg=320x);
 
 # How to use?
 
