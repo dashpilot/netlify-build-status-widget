@@ -14,7 +14,7 @@ This package displays a widget on your site (if you're logged in to Netlify CMS)
 
 # Preview
 
-[Preview](https://raw.githubusercontent.com/dashpilot/netlify-build-status-widget/master/assets/preview.jpg)
+![Preview](https://raw.githubusercontent.com/dashpilot/netlify-build-status-widget/master/assets/preview.jpg)
 
 # How to use?
 
