@@ -50,6 +50,8 @@ Assuming you already set up the [Netlify Identity redirect](https://www.netlifyc
 
 ### Step 3: add and configure the Netlify function
 
+Run: `npm i netlify --save` in your project's folder (this installs the Netlify API NPM package)
+
 Drop the status.js file in your Netlify functions directory, and create the following environment variables in Netlify (Settings > Build & Deploy > Environment):
 
 `NETLIFY_TOKEN` (create a token via User Settings > Applications > Personal Access Tokens)
