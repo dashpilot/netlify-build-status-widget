@@ -18,6 +18,16 @@ This package displays a widget on your site (if you're logged in to Netlify CMS)
 
 # How to use?
 
+# Option 1: Standalone (without integration with Netlify CMS / Netlify Identity)
+
+This is the simplest option: deploy this project to Netlify,and create the following environment variables in Netlify (Settings > Build & Deploy > Environment):
+
+`NETLIFY_TOKEN` (create a token via User Settings > Applications > Personal Access Tokens)
+
+`NETLIFY_SITE_ID` (Settings > General > Site Details > API ID).
+
+# Option 2: Integration with Netlify CMS and Netlify Identity
+
 ### Step 1: add script
 
 Just add the widget CCS and JS to the head of your index.html:
