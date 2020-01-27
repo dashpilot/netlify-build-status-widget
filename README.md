@@ -33,8 +33,8 @@ This is the simplest option: deploy this project to Netlify, and create the foll
 Just add the widget CCS and JS to the head of your index.html:
 
 ```javascript
-  <link href="assets/widget.css" rel="stylesheet">
-	<script src="assets/netlify-build-status-widget.js"></script>
+  <link href="assets/netlify-build-status-widget.min.css" rel="stylesheet">
+	<script src="assets/netlify-build-status-widget.min.js"></script>
 ```
 
 ### Step 2: init the script

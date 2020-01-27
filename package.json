@@ -10,5 +10,10 @@
   "license": "MIT",
   "dependencies": {
     "netlify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@node-minify/babel-minify": "^5.3.0",
+    "@node-minify/clean-css": "^5.3.0",
+    "@node-minify/core": "^5.3.0"
   }
 }
