@@ -20,7 +20,7 @@ This package displays a widget on your site (if you're logged in to Netlify CMS)
 
 ## Option 1: Standalone (without Netlify CMS / Netlify Identity)
 
-This is the simplest option: deploy this project to Netlify,and create the following environment variables in Netlify (Settings > Build & Deploy > Environment):
+This is the simplest option: deploy this project to Netlify, and create the following environment variables in Netlify (Settings > Build & Deploy > Environment):
 
 `NETLIFY_TOKEN` (create a token via User Settings > Applications > Personal Access Tokens)
 
