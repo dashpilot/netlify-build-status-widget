@@ -18,7 +18,7 @@ This package displays a widget on your site (if you're logged in to Netlify CMS)
 
 # How to use?
 
-# Option 1: Standalone (without integration with Netlify CMS / Netlify Identity)
+## Option 1: Standalone (without Netlify CMS / Netlify Identity)
 
 This is the simplest option: deploy this project to Netlify,and create the following environment variables in Netlify (Settings > Build & Deploy > Environment):
 
@@ -26,7 +26,7 @@ This is the simplest option: deploy this project to Netlify,and create the follo
 
 `NETLIFY_SITE_ID` (Settings > General > Site Details > API ID).
 
-# Option 2: Integration with Netlify CMS and Netlify Identity
+## Option 2: Integration with Netlify CMS and Netlify Identity
 
 ### Step 1: add script
 
