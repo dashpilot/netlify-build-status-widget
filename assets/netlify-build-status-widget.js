@@ -1,8 +1,8 @@
-function poll(url) {
+function checkBuildStatus() {
   const statusbar = document.querySelector('#netlify-status');
   const dot = document.querySelector('#dot');
 
-  fetch(url)
+  fetch('.netlify/functions/status')
     .then((response) => {
       return response.json();
     })
@@ -38,8 +38,6 @@ function poll(url) {
       console.log(error);
     });
 }
-
-poll('.netlify/functions/status');
 
 document.querySelector('.ww-close').addEventListener('click', function() {
   document.querySelector('#widget').classList.add('closing');
