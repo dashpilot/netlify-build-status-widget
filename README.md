@@ -54,7 +54,7 @@ Assuming you already set up the [Netlify Identity redirect](https://www.netlifyc
       }
     });
   }
-  </script>
+</script>
 ```
 
 ### Step 3: add and configure the Netlify function
