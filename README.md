@@ -35,7 +35,6 @@ Just add the widget CCS and JS to the head of your index.html:
 ```javascript
   <link href="assets/widget.css" rel="stylesheet">
 	<script src="assets/netlify-build-status-widget.js"></script>
-	</script>
 ```
 
 ### Step 2: init the script
