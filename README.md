@@ -4,7 +4,7 @@ Widget that shows the current status of your Netlify builds. Ideal for use with 
 
 # The problem this widget solves
 
-If you use Netlify CMS, there currently is no way to see the status of your build. You press save, visit your site, and the changes aren't visible (yet), and there's no way to know when the build is finished. This can be especially confusing for users who are used to Wordpress and other 'monolithic' CMS systems.
+If you use Netlify CMS, there currently is no way to see the status of your build. You press save, visit your site, and the changes aren't visible (yet), and there's no way to know when the build is finished. This can be especially confusing for users who are used to Wordpress and other 'monolithic' CMS systems. I ran into this issue myself, and saw that [others](https://github.com/netlify/netlify-cms/issues/2324) were also looking for a solution.
 
 This package displays a widget on your site (if you're logged in to Netlify CMS), displaying the current build status of your site. So you press save in Netlify CMS, visit your site, and get live updates of the build status! The script contains the widget code as well as a Netlify function that checks the build status.
 
