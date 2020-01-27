@@ -14,7 +14,7 @@ This package displays a widget on your site (if you're logged in to Netlify CMS)
 
 # Preview
 
-[Preview](assets/preview.jpg)
+[Preview](https://raw.githubusercontent.com/dashpilot/netlify-build-status-widget/master/assets/preview.jpg)
 
 # How to use?
 
@@ -53,6 +53,7 @@ Assuming you already set up the [Netlify Identity redirect](https://www.netlifyc
 Drop the status.js file in your Netlify functions directory, and create the following environment variables in Netlify (Settings > Build & Deploy > Environment):
 
 `NETLIFY_TOKEN` (create a token via User Settings > Applications > Personal Access Tokens)
+
 `NETLIFY_SITE_ID` (Settings > General > Site Details > API ID).
 
 Visit your site and you should see the Netlify Build Status widget, showing you the current build status!
