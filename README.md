@@ -1,6 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9ec4c54e-bc01-46fe-9fed-6e8d884d9616/deploy-status)](https://app.netlify.com/sites/netlify-build-status-widget/deploys)
+![vanilla javascript](https://img.shields.io/badge/vanilla-javascript-fadc60)
 
-# netlify-build-status-widget
+# Netlify Build Status Widget
 
 Widget that shows the current status of your Netlify builds. Ideal for use with Netlify CMS
 
