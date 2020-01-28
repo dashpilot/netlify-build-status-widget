@@ -3,7 +3,7 @@
 ![vanilla javascript](https://img.shields.io/badge/vanilla-js-fadc60)
 
 
-# Netlify Build Status Widget
+# Netlify Build Status Widget (with live status display)
 
 Widget that shows the current status of your Netlify builds. Ideal for use with Netlify CMS
 
