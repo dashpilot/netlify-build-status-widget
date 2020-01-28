@@ -1,5 +1,7 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9ec4c54e-bc01-46fe-9fed-6e8d884d9616/deploy-status)](https://app.netlify.com/sites/netlify-build-status-widget/deploys)
+![Stable 1.0.4](https://img.shields.io/badge/stable-1.0.4-33a2d8)
+![Dependancies up to date](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)
 ![vanilla javascript](https://img.shields.io/badge/vanilla-javascript-fadc60)
+
 
 # Netlify Build Status Widget
 
