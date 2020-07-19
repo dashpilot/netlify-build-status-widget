@@ -79,3 +79,5 @@ Visit your site and you should see the Netlify Build Status widget, showing you 
 -   make a button so you can easily refresh the page
 
 I welcome any feedback on the implementation, since it's been a while since I've released anything :-)
+
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=dashpilot)](https://github.com/anuraghazra/github-readme-stats)
