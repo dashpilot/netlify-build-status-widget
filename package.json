@@ -1,6 +1,6 @@
 {
   "name": "netlify-build-status-widget",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Show the current status of your Netlify build",
   "main": "index.js",
   "scripts": {
