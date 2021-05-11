@@ -1,6 +1,6 @@
 ![Stable 1.0.3](https://img.shields.io/badge/stable-1.0.3-33a2d8)
 ![Dependancies up to date](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)
-![vanilla javascript](https://img.shields.io/badge/vanilla-js-fadc60)
+![vanilla javascript](https://img.shields.io/badge/vanilla-js-brightgreen)
 
 
 # Netlify Build Status Widget (with live status display)
