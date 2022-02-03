@@ -4,7 +4,7 @@
 
 # Netlify Build Status Widget (with live status display)
 
-Widget that shows the current status of your Netlify builds. Ideal for use with Netlify CMS.
+Widget that shows the current status of your Netlify builds. Ideal for use with Netlify CMS
 
 # The problem this widget solves
 
