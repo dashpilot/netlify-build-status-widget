@@ -1,7 +1,6 @@
-![Stable 1.0.5](https://img.shields.io/badge/stable-1.0.5-33a2d8)
+![Stable 1.0.6](https://img.shields.io/badge/stable-1.0.5-33a2d8)
 ![Dependancies up to date](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)
 ![vanilla javascript](https://img.shields.io/badge/vanilla-js-brightgreen)
-
 
 # Netlify Build Status Widget (with live status display)
 
@@ -81,4 +80,5 @@ Visit your site and you should see the Netlify Build Status widget, showing you 
 I welcome any feedback on the implementation, since it's been a while since I've released anything :-)
 
 ## Press the :star: button
+
 Don't forget to press the :star: button to let me know I should continue improving this project.
