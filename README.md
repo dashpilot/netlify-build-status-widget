@@ -1,4 +1,4 @@
-![Stable 1.0.6](https://img.shields.io/badge/stable-1.0.5-33a2d8)
+![Stable 1.0.6](https://img.shields.io/badge/stable-1.0.6-33a2d8)
 ![Dependancies up to date](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)
 ![vanilla javascript](https://img.shields.io/badge/vanilla-js-brightgreen)
 
