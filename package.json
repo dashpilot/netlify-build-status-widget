@@ -1,6 +1,6 @@
 {
   "name": "netlify-build-status-widget",
-  "version": "1.0.7",
+  "version": "1.0.6",
   "description": "Show the current status of your Netlify build",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "netlify": "^9.0.0"
+    "netlify": "^3.1.0"
   },
   "devDependencies": {
     "@node-minify/babel-minify": "^5.3.0",
