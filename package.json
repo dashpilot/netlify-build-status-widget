@@ -9,11 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "netlify": "^3.1.0"
-  },
-  "devDependencies": {
-    "@node-minify/babel-minify": "^5.3.0",
-    "@node-minify/clean-css": "^5.3.0",
-    "@node-minify/core": "^6.0.0"
+    "netlify": "^9.0.0"
   }
 }
