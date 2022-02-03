@@ -1,4 +1,4 @@
-const NetlifyAPI = require('netlify')
+import NetlifyAPI from 'netlify';
 
 exports.handler = async (event, context) => {
 
