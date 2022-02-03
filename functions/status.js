@@ -1,5 +1,7 @@
 // Netlify API is now ES Module
-import NetlifyAPI from 'netlify';
+import {
+  NetlifyAPI
+} from 'netlify';
 
 exports.handler = async (event, context) => {
 
