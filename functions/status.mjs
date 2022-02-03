@@ -1,8 +1,8 @@
-exports.handler = async (event, context) => {
+import {
+  NetlifyAPI
+} from 'netlify';
 
-  import {
-    NetlifyAPI
-  } from 'netlify';
+exports.handler = async (event, context) => {
 
   const client = new NetlifyAPI(process.env.NETLIFY_TOKEN)
   const deploys = await client.listSiteDeploys({
