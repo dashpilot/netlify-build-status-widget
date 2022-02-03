@@ -16,22 +16,22 @@ function checkBuildStatus() {
         statusbar.innerHTML = 'Waiting...';
         dot.classList.remove('green', 'yellow');
         dot.classList.add('red');
-        setTimeout(poll, 5000);
+        setTimeout(checkBuildStatus(), 5000);
       } else if (status == 'building') {
         statusbar.innerHTML = 'Building...';
         dot.classList.remove('red', 'green');
         dot.classList.add('yellow');
-        setTimeout(poll, 5000);
+        setTimeout(checkBuildStatus(), 5000);
       } else if (status == 'processing') {
         statusbar.innerHTML = 'Processing...';
         dot.classList.remove('red', 'green');
         dot.classList.add('yellow');
-        setTimeout(poll, 5000);
+        setTimeout(checkBuildStatus(), 5000);
       } else {
         statusbar.innerHTML = status;
         dot.classList.remove('red', 'green');
         dot.classList.add('yellow');
-        setTimeout(poll, 5000);
+        setTimeout(checkBuildStatus(), 5000);
       }
     })
     .catch((error) => {
